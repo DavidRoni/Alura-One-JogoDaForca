@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  text-align: center;
+  background-color: saddleBrown;
+  padding: 10px;
+}
+.iniciar-botao{
+  position: relative;
+  margin-top: 10px;
+  top: 5px;
+  width: 150px;
+  height: 50px;
+  border-radius: 55px;
+  background-color: saddleBrown;
+  color: white;
+  font-size: 18px;
+  border: 5px ridge white;
+}
+header input:hover{
+  border: 8px ridge white;
+}
+header input:active{
+  font-size: 20px;
+}
+.adicionar-palavra{
+  margin-top: 15px;
+  text-align: center;
+}
+.adicionar-palavra .adicionar{
+  width: 100px;
+  height: 50px;
+  background-color: saddleBrown;
+  color: white;
+  font-size: 16px;
+  border: 5px ridge white;
+}
+.adicionar-palavra .adicionar:hover{
+  border: 8px ridge white;
+}
+.adicionar-palavra .adicionar:hover:active{
+  font-size: 18px;
+}
+.adicionar-palavra p{
+  text-align: center;
+  color: saddleBrown;
+  font-weight: bold;
+}
+.adiciona-texto{
+  text-align: center;
+  width: 250px;
+  height: 20px;
+  border: 6px ridge saddleBrown;
+  background-color: rgb(255, 255, 255);
+}
+.adiciona-texto:hover{
+  border: 10px ridge saddleBrown;
+}
+header h1{
+  color: white;
+  font-size: 50px;
+}
+canvas{
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+.reiniciar{
+  position: relative;
+  background-color: saddleBrown;
+  top: 100px;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+.reiniciar-jogo{
+  margin-top: 10px;
+  top: 0px;
+  width: 150px;
+  height: 50px;
+  border-radius: 55px;
+  background-color: saddleBrown;
+  color: white;
+  font-size: 18px;
+  border: 5px ridge white;
+}
+.reiniciar-jogo:hover{
+  border: 8px ridge white;
+}
+.reiniciar-jogo:active{
+  font-size: 20px;
+}
+.invisivel{
+  opacity: 1;
+}
+footer{
+  text-align: center;
+  background-color: saddleBrown;
+  width: 100%;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  color: white;
+}
+footer .aagithub{
+  position: absolute;
+  left: 80%;
+}
+footer .github{
+  width: 50%;
+}

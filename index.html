@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Jogo da Forca</title>
+</head>
+<body>
+  <header>
+    <h1>Jogo da Forca</h1>
+    <a href="#canvas-area"><input class="iniciar-botao" type="button" value="Iniciar o Jogo"></a>
+  </header>
+  </div>
+  <main>
+    <div class="adicionar-palavra">
+      <form>
+        <p class="paragrafo">Apenas palavras com 10 letras</p>
+      <input class="adiciona-texto"type="text" name="" id="adicionar" placeholder="Adione uma palavra ao jogo" maxlength="10">
+      <input class="adicionar" type="button" value="Adicionar">
+    </form>
+    </div>
+  </main>
+  <div class="reiniciar">
+    <a href="#canvas-area"><input class="reiniciar-jogo" type="button" value="Reiniciar o Jogo" onClick="reset()"></a>
+  </div>
+  <div id="canvas-area">
+    <canvas width="1200" height="650"></canvas>
+  </canvas>
+  <div>
+  <footer>
+    <p>Desenvolvido por Roni - 2022</p>
+    <a class="aagithub" href="https://github.com/DavidRoni" target="_blank"><img class="github" src="images/download.png" alt="Logo do GitHub"></a>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/desenha-forca.js"></script>
+</body>
+</html>
